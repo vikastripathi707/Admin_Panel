@@ -152,7 +152,7 @@
          width: 40px;
          height: 40px;
      }
-     /* // */
+
      
      .container .header .nav .user .imgCase {
          position: relative;
@@ -229,15 +229,14 @@
      }
      
      @media screen and (max-width: 1050px) {
-         .sideMenu li {
-             font-size: 18px;
-         }
+        
      }
      
-     @media screen and (max-width: 940px) {
+   @media screen and (max-width: 760px){
          .sideMenu li span {
              display: none;
          }
+
          .sideMenu {
              align-items: center;
          }
@@ -250,21 +249,11 @@
              padding: 8px 38px;
              border: 2px solid white;
          }
+     .container{
+       display: flex;
+      height: 40vh;
+         width: 40vh;
+     }
+    
      }
      
-     @media screen and (max-width:915px)  {
-         .brandName h1 {
-             font-size: 16px;
-         }
-         .container .content .cards {
-             justify-content: center;
-         }
-         .sideMenu li img {
-             width: 30px;
-             height: 30px;
-         }
-         .container .content .content2 .recentPayment table th:nth-child(2),
-         .container .content .content2 .recentPayment table td:nth-child(2) {
-             display: none;
-         }
-     }
